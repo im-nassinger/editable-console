@@ -4,14 +4,24 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "typedoc": "typedoc index.ts --plugin typedoc-plugin-markdown --out docs/pages",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "type": "module",
   "dependencies": {
     "chalk": "^5.4.1",
     "log-update": "^6.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.14",
+    "typedoc": "^0.28.1",
+    "typedoc-plugin-markdown": "^4.6.0",
+    "vitepress": "^1.6.3"
   }
 }

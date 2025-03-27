@@ -1,4 +1,4 @@
-import util from 'node:util';
+import { inspect } from 'node:util';
 import { EditableLog } from './EditableLog.ts';
 import type { PrimitiveMessage } from './types.d.ts';
 
@@ -54,7 +54,7 @@ export class EditableMessage {
      */
     toString() {
         if (this.isObject) {
-            return util.inspect(this.content, { depth: 2, colors: true });
+            return inspect(this.content, { depth: 2, colors: true });
         } else {
             return this.content.toString();
         }
