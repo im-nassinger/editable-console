@@ -1,6 +1,6 @@
 {
   "name": "editable-console",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "editable-console is a runtime-agnostic logging utility that allows you to create and modify console output dynamically.",
   "main": "index.ts",
   "scripts": {
