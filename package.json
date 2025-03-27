@@ -1,7 +1,7 @@
 {
   "name": "editable-console",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "editable-console is a runtime-agnostic logging utility that allows you to create and modify console output dynamically.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
