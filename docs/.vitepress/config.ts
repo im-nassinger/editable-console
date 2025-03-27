@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
     title: "editable-console",
     description: "editable-console is a runtime-agnostic logging utility that allows you to create and modify console output dynamically.",
+    base: '/projects/editable-console/docs',
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
         nav: [

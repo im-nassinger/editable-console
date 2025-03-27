@@ -37,7 +37,7 @@ setTimeout(() => {
 
 ## Documentation
 
-for full documentation, visit [editable-console docs](https://nassinger.com/projects/editable-console/docs).
+for full documentation, visit [editable-console docs](https://nassinger.com/projects/editable-console/docs/pages/README.html).
 
 ## License
 
