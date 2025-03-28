@@ -8,6 +8,7 @@ import type { PrimitiveMessage } from './types.ts';
 export class EditableMessage {
     /** The content of the message. */
     content: PrimitiveMessage;
+    
     /** The logs that contain this message. */
     logs: EditableLog[] = [];
 

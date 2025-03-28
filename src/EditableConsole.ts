@@ -8,6 +8,7 @@ import type { LogType, AnyMessage } from './types.ts';
 export class EditableConsole {
     /** Array of editable logs. */
     logs: EditableLog[] = [];
+    
     /** Cached string of the last rendered log output. */
     lastLogString: string = '';
 

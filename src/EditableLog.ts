@@ -9,8 +9,10 @@ import type { LogType, AnyMessage } from './types.ts';
 export class EditableLog {
     /** The parent console instance. */
     console: EditableConsole;
+
     /** The type of log entry. */
     type: LogType = 'info';
+    
     /** Array of editable messages contained in this log entry. */
     messages: EditableMessage[] = [];
 
