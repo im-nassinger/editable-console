@@ -51,7 +51,7 @@ export class EditableConsole {
      * @param messages - The messages to log.
      * @returns The created editable log.
      */
-    log(...messages: AnyMessage[]) {
+    log(...messages: AnyMessage[]): EditableLog {
         return this.addLog('info', messages);
     }
 
@@ -61,7 +61,7 @@ export class EditableConsole {
      * @param messages - The messages to log.
      * @returns The created editable log.
      */
-    warn(...messages: AnyMessage[]) {
+    warn(...messages: AnyMessage[]): EditableLog {
         return this.addLog('warn', messages);
     }
 
@@ -71,7 +71,7 @@ export class EditableConsole {
      * @param messages - The messages to log.
      * @returns The created editable log.
      */
-    error(...messages: AnyMessage[]) {
+    error(...messages: AnyMessage[]): EditableLog {
         return this.addLog('error', messages);
     }
 
@@ -94,7 +94,7 @@ export class EditableConsole {
      *
      * @returns The string representation of all logs.
      */
-    toString() {
+    toString(): string {
         return this.logs.map((log) => log.toString()).join('\n');
     }
 }

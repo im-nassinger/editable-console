@@ -44,7 +44,7 @@ export class EditableMessage {
      *
      * @returns True if the content is an object, false otherwise.
      */
-    get isObject() {
+    get isObject(): boolean {
         return typeof this.content === 'object';
     }
 
@@ -53,7 +53,7 @@ export class EditableMessage {
      *
      * @returns The string representation of the message.
      */
-    toString() {
+    toString(): string {
         if (this.isObject) {
             return inspect(this.content, { depth: 2, colors: true });
         } else {

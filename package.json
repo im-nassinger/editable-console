@@ -1,27 +1,29 @@
 {
-  "name": "editable-console",
-  "version": "1.0.4",
-  "description": "editable-console is a runtime-agnostic logging utility that allows you to create and modify console output dynamically.",
-  "main": "index.ts",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "typedoc": "typedoc index.ts --plugin typedoc-plugin-markdown --out docs/pages",
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "MIT",
-  "type": "module",
-  "dependencies": {
-    "chalk": "^5.4.1",
-    "log-update": "^6.1.0"
-  },
-  "devDependencies": {
-    "@types/node": "^22.13.14",
-    "typedoc": "^0.28.1",
-    "typedoc-plugin-markdown": "^4.6.0",
-    "vitepress": "^1.6.3"
-  }
+    "name": "editable-console",
+    "version": "1.0.4",
+    "description": "editable-console is a runtime-agnostic logging utility that allows you to create and modify console output dynamically.",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build:npm": "deno -A ./scripts/build_npm.ts",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "typedoc": "typedoc src/index.ts --plugin typedoc-plugin-markdown --out docs/pages",
+        "docs:dev": "vitepress dev docs",
+        "docs:build": "vitepress build docs",
+        "docs:preview": "vitepress preview docs"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "type": "module",
+    "dependencies": {
+        "chalk": "^5.4.1",
+        "log-update": "^6.1.0"
+    },
+    "devDependencies": {
+        "@types/node": "^22.13.14",
+        "typedoc": "^0.28.1",
+        "typedoc-plugin-markdown": "^4.6.0",
+        "vitepress": "^1.6.3"
+    }
 }

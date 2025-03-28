@@ -95,7 +95,7 @@ export class EditableLog {
      *
      * @returns A function that applies the appropriate color to the text.
      */
-    get colorFn() {
+    get colorFn(): (text: string) => string {
         return {
             info: chalk.white,
             warn: chalk.yellow,
@@ -108,7 +108,7 @@ export class EditableLog {
      *
      * @returns The string representation of the log.
      */
-    toString() {
+    toString(): string {
         return this.messages.map((message) => {
             const text = message.toString();
 
