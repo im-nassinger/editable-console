@@ -1,6 +1,6 @@
 import logUpdate from 'log-update';
 import { EditableLog } from './EditableLog.ts';
-import type { LogType, AnyMessage } from './types.d.ts';
+import type { LogType, AnyMessage } from './types.ts';
 
 /**
  * Represents a console that supports editable logs.

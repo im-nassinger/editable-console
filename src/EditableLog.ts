@@ -1,7 +1,7 @@
 import chalk from 'chalk';
 import { EditableConsole } from './EditableConsole.ts';
 import { EditableMessage } from './EditableMessage.ts';
-import type { LogType, AnyMessage } from './types.d.ts';
+import type { LogType, AnyMessage } from './types.ts';
 
 /**
  * Represents an individual editable log entry.

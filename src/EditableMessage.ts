@@ -1,6 +1,6 @@
 import { inspect } from 'node:util';
 import { EditableLog } from './EditableLog.ts';
-import type { PrimitiveMessage } from './types.d.ts';
+import type { PrimitiveMessage } from './types.ts';
 
 /**
  * Represents an editable message that can be part of multiple logs.
