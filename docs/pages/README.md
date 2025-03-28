@@ -23,7 +23,7 @@ deno add jsr:@nassinger/editable-console
 ## Usage
 
 ```ts
-import { EditableConsole } from 'editable-console';
+import { EditableConsole } from 'editable-console'; // or 'jsr:@nassinger/editable-console'
 
 const console = new EditableConsole();
 
