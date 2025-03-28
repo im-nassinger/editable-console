@@ -4,10 +4,13 @@
     "description": "editable-console is a runtime-agnostic logging utility that allows you to create and modify console output dynamically.",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
+    "repository": {
+        "url": "https://github.com/im-nassinger/editable-console"
+    },
     "scripts": {
         "build:npm": "deno -A ./scripts/build_npm.ts",
         "test": "echo \"Error: no test specified\" && exit 1",
-        "typedoc": "typedoc src/index.ts --plugin typedoc-plugin-markdown --out docs/pages",
+        "typedoc": "typedoc src/index.ts --plugin typedoc-plugin-markdown --sourceLinkTemplate \"https://github.com/im-nassinger/editable-console/blob/main/{path}#L{line}\" --out docs/pages",
         "docs:dev": "vitepress dev docs",
         "docs:build": "vitepress build docs",
         "docs:preview": "vitepress preview docs"

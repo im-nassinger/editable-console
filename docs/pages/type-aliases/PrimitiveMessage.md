@@ -8,4 +8,4 @@
 
 > **PrimitiveMessage** = `string` \| `number` \| `object`
 
-Defined in: types.d.ts:3
+Defined in: [types.ts:3](https://github.com/im-nassinger/editable-console/blob/main/src/types.ts#L3)

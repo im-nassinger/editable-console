@@ -1,19 +1,23 @@
+**editable-console**
+
+***
+
 # editable-console
 
 **editable-console** is a runtime-agnostic logging utility that allows you to create and modify console output dynamically. It's available both as an npm package and as a jsr package.
 
 ## Installation
 
-### npm
+### [npm](https://www.npmjs.com/package/editable-console)
 
 ```bash
 npm install editable-console
 ```
 
-### jsr (with Deno)
+### [jsr](https://jsr.io/@nassinger/editable-console) (with Deno)
 
 ```bash
-deno add jsr:@im-nassinger/editable-console
+deno add jsr:@nassinger/editable-console
 ```
 
 ## Usage
@@ -37,7 +41,7 @@ setTimeout(() => {
 
 ## Documentation
 
-for full documentation, visit [editable-console docs](https://nassinger.com/projects/editable-console/docs).
+for full documentation, visit [editable-console docs](https://nassinger.com/projects/editable-console/docs/pages/README.html).
 
 ## License
 

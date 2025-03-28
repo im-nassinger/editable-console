@@ -8,4 +8,4 @@
 
 > **LogType** = `"info"` \| `"warn"` \| `"error"`
 
-Defined in: types.d.ts:5
+Defined in: [types.ts:5](https://github.com/im-nassinger/editable-console/blob/main/src/types.ts#L5)

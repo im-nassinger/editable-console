@@ -6,7 +6,7 @@
 
 # Class: EditableMessage
 
-Defined in: EditableMessage.ts:8
+Defined in: [EditableMessage.ts:8](https://github.com/im-nassinger/editable-console/blob/main/src/EditableMessage.ts#L8)
 
 Represents an editable message that can be part of multiple logs.
 
@@ -16,7 +16,7 @@ Represents an editable message that can be part of multiple logs.
 
 > **new EditableMessage**(`content`): `EditableMessage`
 
-Defined in: EditableMessage.ts:19
+Defined in: [EditableMessage.ts:20](https://github.com/im-nassinger/editable-console/blob/main/src/EditableMessage.ts#L20)
 
 Creates an instance of EditableMessage.
 
@@ -38,7 +38,7 @@ The message content.
 
 > **content**: [`PrimitiveMessage`](../type-aliases/PrimitiveMessage.md)
 
-Defined in: EditableMessage.ts:10
+Defined in: [EditableMessage.ts:10](https://github.com/im-nassinger/editable-console/blob/main/src/EditableMessage.ts#L10)
 
 The content of the message.
 
@@ -48,7 +48,7 @@ The content of the message.
 
 > **logs**: [`EditableLog`](EditableLog.md)[] = `[]`
 
-Defined in: EditableMessage.ts:12
+Defined in: [EditableMessage.ts:13](https://github.com/im-nassinger/editable-console/blob/main/src/EditableMessage.ts#L13)
 
 The logs that contain this message.
 
@@ -60,7 +60,7 @@ The logs that contain this message.
 
 > **get** **isObject**(): `boolean`
 
-Defined in: EditableMessage.ts:46
+Defined in: [EditableMessage.ts:47](https://github.com/im-nassinger/editable-console/blob/main/src/EditableMessage.ts#L47)
 
 Indicates whether the content is an object.
 
@@ -76,7 +76,7 @@ True if the content is an object, false otherwise.
 
 > **edit**(`newContent`): `void`
 
-Defined in: EditableMessage.ts:28
+Defined in: [EditableMessage.ts:29](https://github.com/im-nassinger/editable-console/blob/main/src/EditableMessage.ts#L29)
 
 Edits the content of the message.
 
@@ -98,7 +98,7 @@ The new content for the message.
 
 > **remove**(): `void`
 
-Defined in: EditableMessage.ts:37
+Defined in: [EditableMessage.ts:38](https://github.com/im-nassinger/editable-console/blob/main/src/EditableMessage.ts#L38)
 
 Removes this message from all logs that include it.
 
@@ -112,7 +112,7 @@ Removes this message from all logs that include it.
 
 > **toString**(): `string`
 
-Defined in: EditableMessage.ts:55
+Defined in: [EditableMessage.ts:56](https://github.com/im-nassinger/editable-console/blob/main/src/EditableMessage.ts#L56)
 
 Converts the message to a string representation.
 

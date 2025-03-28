@@ -6,7 +6,7 @@
 
 # Class: EditableConsole
 
-Defined in: EditableConsole.ts:8
+Defined in: [EditableConsole.ts:8](https://github.com/im-nassinger/editable-console/blob/main/src/EditableConsole.ts#L8)
 
 Represents a console that supports editable logs.
 
@@ -26,7 +26,7 @@ Represents a console that supports editable logs.
 
 > **lastLogString**: `string` = `''`
 
-Defined in: EditableConsole.ts:12
+Defined in: [EditableConsole.ts:13](https://github.com/im-nassinger/editable-console/blob/main/src/EditableConsole.ts#L13)
 
 Cached string of the last rendered log output.
 
@@ -36,7 +36,7 @@ Cached string of the last rendered log output.
 
 > **logs**: [`EditableLog`](EditableLog.md)[] = `[]`
 
-Defined in: EditableConsole.ts:10
+Defined in: [EditableConsole.ts:10](https://github.com/im-nassinger/editable-console/blob/main/src/EditableConsole.ts#L10)
 
 Array of editable logs.
 
@@ -46,7 +46,7 @@ Array of editable logs.
 
 > **error**(...`messages`): [`EditableLog`](EditableLog.md)
 
-Defined in: EditableConsole.ts:73
+Defined in: [EditableConsole.ts:74](https://github.com/im-nassinger/editable-console/blob/main/src/EditableConsole.ts#L74)
 
 Logs an error message.
 
@@ -70,7 +70,7 @@ The created editable log.
 
 > **log**(...`messages`): [`EditableLog`](EditableLog.md)
 
-Defined in: EditableConsole.ts:53
+Defined in: [EditableConsole.ts:54](https://github.com/im-nassinger/editable-console/blob/main/src/EditableConsole.ts#L54)
 
 Logs an informational message.
 
@@ -94,7 +94,7 @@ The created editable log.
 
 > **removeLog**(`log`): `void`
 
-Defined in: EditableConsole.ts:36
+Defined in: [EditableConsole.ts:37](https://github.com/im-nassinger/editable-console/blob/main/src/EditableConsole.ts#L37)
 
 Removes a log entry from the console.
 
@@ -116,7 +116,7 @@ The log to remove or its index.
 
 > **render**(): `void`
 
-Defined in: EditableConsole.ts:81
+Defined in: [EditableConsole.ts:82](https://github.com/im-nassinger/editable-console/blob/main/src/EditableConsole.ts#L82)
 
 Renders the current logs to the console.
 Uses caching to avoid unnecessary re-renders.
@@ -131,7 +131,7 @@ Uses caching to avoid unnecessary re-renders.
 
 > **toString**(): `string`
 
-Defined in: EditableConsole.ts:96
+Defined in: [EditableConsole.ts:97](https://github.com/im-nassinger/editable-console/blob/main/src/EditableConsole.ts#L97)
 
 Converts all logs to a single string representation.
 
@@ -147,7 +147,7 @@ The string representation of all logs.
 
 > **warn**(...`messages`): [`EditableLog`](EditableLog.md)
 
-Defined in: EditableConsole.ts:63
+Defined in: [EditableConsole.ts:64](https://github.com/im-nassinger/editable-console/blob/main/src/EditableConsole.ts#L64)
 
 Logs a warning message.
 

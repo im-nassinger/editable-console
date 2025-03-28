@@ -6,7 +6,7 @@
 
 # Class: EditableLog
 
-Defined in: EditableLog.ts:9
+Defined in: [EditableLog.ts:9](https://github.com/im-nassinger/editable-console/blob/main/src/EditableLog.ts#L9)
 
 Represents an individual editable log entry.
 
@@ -16,7 +16,7 @@ Represents an individual editable log entry.
 
 > **new EditableLog**(`console`, `type`, `messages`): `EditableLog`
 
-Defined in: EditableLog.ts:24
+Defined in: [EditableLog.ts:26](https://github.com/im-nassinger/editable-console/blob/main/src/EditableLog.ts#L26)
 
 Creates an instance of EditableLog.
 
@@ -50,7 +50,7 @@ The messages to include in the log.
 
 > **console**: [`EditableConsole`](EditableConsole.md)
 
-Defined in: EditableLog.ts:11
+Defined in: [EditableLog.ts:11](https://github.com/im-nassinger/editable-console/blob/main/src/EditableLog.ts#L11)
 
 The parent console instance.
 
@@ -60,7 +60,7 @@ The parent console instance.
 
 > **messages**: [`EditableMessage`](EditableMessage.md)[] = `[]`
 
-Defined in: EditableLog.ts:15
+Defined in: [EditableLog.ts:17](https://github.com/im-nassinger/editable-console/blob/main/src/EditableLog.ts#L17)
 
 Array of editable messages contained in this log entry.
 
@@ -70,7 +70,7 @@ Array of editable messages contained in this log entry.
 
 > **type**: [`LogType`](../type-aliases/LogType.md) = `'info'`
 
-Defined in: EditableLog.ts:13
+Defined in: [EditableLog.ts:14](https://github.com/im-nassinger/editable-console/blob/main/src/EditableLog.ts#L14)
 
 The type of log entry.
 
@@ -80,17 +80,27 @@ The type of log entry.
 
 #### Get Signature
 
-> **get** **colorFn**(): `ChalkInstance`
+> **get** **colorFn**(): (`text`) => `string`
 
-Defined in: EditableLog.ts:96
+Defined in: [EditableLog.ts:98](https://github.com/im-nassinger/editable-console/blob/main/src/EditableLog.ts#L98)
 
 Gets the chalk color function based on the log type.
 
 ##### Returns
 
-`ChalkInstance`
+`Function`
 
 A function that applies the appropriate color to the text.
+
+###### Parameters
+
+###### text
+
+`string`
+
+###### Returns
+
+`string`
 
 ## Methods
 
@@ -98,7 +108,7 @@ A function that applies the appropriate color to the text.
 
 > **edit**(...`messages`): `void`
 
-Defined in: EditableLog.ts:79
+Defined in: [EditableLog.ts:81](https://github.com/im-nassinger/editable-console/blob/main/src/EditableLog.ts#L81)
 
 Edits the current log with new messages.
 
@@ -120,7 +130,7 @@ The new messages for the log.
 
 > **remove**(): `void`
 
-Defined in: EditableLog.ts:87
+Defined in: [EditableLog.ts:89](https://github.com/im-nassinger/editable-console/blob/main/src/EditableLog.ts#L89)
 
 Removes this log entry from its parent console.
 
@@ -134,7 +144,7 @@ Removes this log entry from its parent console.
 
 > **removeMessage**(`message`): `void`
 
-Defined in: EditableLog.ts:61
+Defined in: [EditableLog.ts:63](https://github.com/im-nassinger/editable-console/blob/main/src/EditableLog.ts#L63)
 
 Removes a specific message from this log.
 
@@ -156,7 +166,7 @@ The message or its index to remove.
 
 > **toString**(): `string`
 
-Defined in: EditableLog.ts:109
+Defined in: [EditableLog.ts:111](https://github.com/im-nassinger/editable-console/blob/main/src/EditableLog.ts#L111)
 
 Converts this log entry to a string representation.
 
