@@ -4,16 +4,16 @@
 
 ## Installation
 
-### npm
+### [npm](https://www.npmjs.com/package/editable-console)
 
 ```bash
 npm install editable-console
 ```
 
-### jsr (with Deno)
+### [jsr](https://jsr.io/@nassinger/editable-console) (with Deno)
 
 ```bash
-deno add jsr:@im-nassinger/editable-console
+deno add jsr:@nassinger/editable-console
 ```
 
 ## Usage
